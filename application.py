@@ -3,4 +3,5 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello World!"
+    print('hello method invoked')
+    return "Hello Azure! from Python"
